@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <!-- endbuild -->
+
+    <title>Ristorante Con Fusion</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./library.html"><span class="fa fa-book fa-lg"></span> Library</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./collection.html"><span class="fa fa-archive fa-lg"></span> Collection</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./friends.html"><span class="fa fa-users fa-lg"></span> Friends</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./forum.html"><span class="fa fa-sticky-note fa-lg"></span> Forum</a></li>
+                </ul>
+                <span class="navbar-text">
+                    <a id="loginLink" href="#">
+                        Registered User &nbsp; <span class="fa fa-user-circle"></span>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 mt-sm-auto" style="padding-top: 20px;">
+        <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">Account Management</li>
+            </ol>
+            
+        </div>
+
+        <div class="row row-content justify-content-center align-items-center">
+            <form>
+                <span class="col-12 fa fa-user-circle" style="font-size: 200px; text-align: center;"></span>
+                <input class="offset-2" type="file" id="imgupload"> 
+                <br><br>
+
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter username">
+                </div>
+
+                <div class="form-group">
+                    <label for="names">Names</label>
+                    <input type="text" class="form-control" id="names" placeholder="Enter names">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastnames">Last Names</label>
+                    <input type="text" class="form-control" id="lastnames" placeholder="Enter last names">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Date of Birth</label>
+                    <input type="date" class="form-control" id="birthday" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                
+                <button type="submit" class="btn btn-outline-primary offset-5">Save Changes</button>
+            </form>
+        </div>
+            
+            
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p style="text-align: right;">© Copyright Comic Collector Box 2022 - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
